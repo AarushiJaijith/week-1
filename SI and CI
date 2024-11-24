@@ -1,0 +1,12 @@
+/*WAP for SI and CI*/
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	float ci,p,t,r;
+	printf("enter p,t,r:");
+	scanf("%f%f%f",&p,&t,&r);
+	printf("si=%f",p*t*r/100);
+	printf("ci=%f",p*pow((1+r/100),t));
+	return 0;
+}
