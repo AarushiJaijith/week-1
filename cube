@@ -1,0 +1,11 @@
+/*WAP for cube*/
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	int a;
+	printf("enter num:");
+	scanf("%d",&a);
+	printf("cube=%f",pow(a,3));
+	return 0;
+}
