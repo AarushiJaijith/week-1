@@ -1,0 +1,11 @@
+/*WAP to find sqrt*/
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	int a;
+	printf("enter num:");
+	scanf("%d",&a);
+	printf("sqrt=%f",pow(a,0.5));
+	return 0;
+}
