@@ -1,0 +1,10 @@
+/*WAP to find mech energy*/
+#include <stdio.h>
+int main()
+{
+	float m,g,h,v;
+	printf("enter m,g,h,v:");
+	scanf("%f%f%f%f",&m,&g,&h,&v);
+	printf("total mech energy=%f",(m*g*h)+(0.5*m*v*v));
+	return 0;
+}
