@@ -1,0 +1,12 @@
+/*WAP to convert km to m,cm,mm*/
+#include <stdio.h>
+int main()
+{
+	int a;
+	printf("enter in km:");
+	scanf("%d",&a);
+	printf("meter=%d",a*1000);
+	printf("cm=%d",a*100000);
+	printf("mm=%d",a*1000000);
+	return 0;
+}
