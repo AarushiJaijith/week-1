@@ -1,0 +1,26 @@
+/*WAP to evaluate the eqs*/
+/*v=u+at*/
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	/*v=u+at*/
+	float u,a,t,b,c,p;
+	printf("enter u,a,t:");
+	scanf("%f%f%f",&u,&a,&t);
+	printf("v=%f",u+(a*t));
+	
+	/*s=ut+1/2at^2*/
+	printf("s=%f",(u*t)+0.5*a*t*t);
+	
+	/*t=2*a+sqrt(b)+9c*/
+	printf("enter a,b,c:");
+	scanf("%f%f%f",&a,&b,&c);
+	printf("t=%f",(2*a)+pow(b,0.5)+9*c);
+	
+	/*h=sqrt(b2+p2)*/
+	printf("enter p,b:");
+	scanf("%f%f",&p,&b);
+	printf("h=%f",pow(b*b+p*p,0.5));
+	return 0;
+}
