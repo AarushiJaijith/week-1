@@ -1,0 +1,14 @@
+/*WAP to perform all arithmetic operations*/
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	printf("enter a,b:");
+	scanf("%d%d",&a,&b);
+	printf("sum=%d",a+b);
+	printf("difference=%d",a-b);
+	printf("prod=%d",a*b);
+	printf("div=%d",a/b);
+	printf("mod=%d",a%b);
+	return 0;
+}
