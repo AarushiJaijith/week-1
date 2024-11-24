@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	float a,b;
+	printf("enter a,b:");
+	scanf("%f%f",&a,&b);
+	printf("prod as float=%f",a*b);
+	printf("prod as int=%d",(int)(a*b));
+	return 0;
+}
