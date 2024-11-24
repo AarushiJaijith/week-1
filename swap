@@ -1,0 +1,13 @@
+/*WAP to swap 2 numbers*/
+#include <stdio.h>
+int main()
+{
+	int a,b,c;
+	printf("enter a,b:");
+	scanf("%d%d",&a,&b);
+	c=b;
+	b=a;
+	a=c;
+	printf("a,b=%d%d",a,b);
+	return 0;
+}
